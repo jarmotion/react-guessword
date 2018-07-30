@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.div-gridboard {
+  display:table;
+  margin: 5em;
+  border: 2px solid grey;
+  border-radius: 8px;
+  width: initial;
+  position: relative;
+  overflow: hidden;
+  float: none;
+  background-color: gainsboro;
+  
+}
+
+.buttongridsquare {
+  border-radius: 8px;
+  width: 80px;
+  height: 50px;
+  /*padding: 2px;*/
+  margin: 4px;
+  background-color:beige;
+  transition: all 0.2s;
+  cursor: pointer;
+  float:left;
+  position: relative;
+  overflow:hidden;
+  font-size:12px;
+  /*border-top: 6px solid brown;*/
+  /*float:left;*/
+}
+
+.buttongridsquare:hover {
+  background-color:yellowgreen;
+
+  box-shadow: 2px 1px;
+  transform: rotateY(30deg);
+  transition: background-color 0.2s;
+}
+
+.buttongridsquare:active {
+  transition: transform 0.1s;
+  transform: rotateY(170deg);
+}
